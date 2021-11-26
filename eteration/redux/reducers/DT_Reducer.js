@@ -3,7 +3,7 @@ import {
   } from '../actions/actionTypes'
   
   const initial_data = {
-    data: ['initial data mal özgür']
+    data: ['initial data']
   }
   const Data_Transfer_Reducer = (state = initial_data, action) => {
     switch (action.type) {
